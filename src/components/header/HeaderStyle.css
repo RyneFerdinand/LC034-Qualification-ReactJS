@@ -1,0 +1,23 @@
+header{
+    background-color: var(--dark);
+    display: flex;
+    font-display: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.logo{
+    margin-left: 1rem;
+}
+
+.action-nav{
+    margin-right: 1rem;
+}
+
+.action-nav a{
+    margin: 0 0.6rem;
+}
+.action-nav img{
+    width: 2rem;
+}

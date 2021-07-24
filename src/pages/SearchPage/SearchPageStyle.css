@@ -1,0 +1,33 @@
+.search-container{
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.search-form label{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.search-bar{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5%;
+    margin: 2% 0 5% 0;
+}
+
+.search-btn{
+    padding: 2% 0;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--dark);
+    color: var(--blue);
+}
