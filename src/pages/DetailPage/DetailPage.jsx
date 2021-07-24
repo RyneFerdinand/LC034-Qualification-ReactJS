@@ -20,7 +20,7 @@ function DetailPage(){
     const query = gql`
     query ($id: Int) {
         Page{
-            media(id: $id, type: MANGA, sort: FAVOURITES_DESC, isAdult: false) {
+            media(id: $id, type: MANGA, sort: FAVOURITES_DESC) {
                 id
                 coverImage {
                     large
