@@ -21,7 +21,7 @@ function ListPage(){
                 total
                 perPage
             }
-            media(search: $search, type: MANGA, sort: FAVOURITES_DESC) {
+            media(search: $search, type: MANGA, sort: FAVOURITES_DESC, isAdult: false) {
                 id
                 coverImage {
       			  extraLarge
